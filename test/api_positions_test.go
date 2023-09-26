@@ -13,8 +13,8 @@ import (
 	"context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	openapiclient "github.com/yuanmomo/plan-trip-go-client"
 	"testing"
-	openapiclient "vasttrafik-notification/plan-trip-go-client"
 )
 
 func Test_openapi_PositionsAPIService(t *testing.T) {
